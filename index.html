@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tip Calculator</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+	<section class="wrap">
+		<div class ="calculator-box">
+			<div class="heading">
+				<h1> Tip Calculator </h1>
+			</div>
+
+			<div class="bill-process">
+				<label> How much was your bill </label>
+				<input id="bill" type="text">
+			</div>
+
+
+			<div class="service-process">
+				<label> How was your service </label>
+				<select id="option">
+					<option value="aboveaverage">Above Average</option>
+					<option value="average"> Average </option>
+					<option value="satisfactory"> Satisfactory </option>
+					<option value= "belowsatisfactory"> Below Satisfactory </option>
+				</select>
+			</div>
+
+			<div class="people-process">
+				<label> People Present</label>
+				<input id="people" type="text" value="Number of people">
+			</div>
+		
+			<div class="button">
+				<button onclick="calculate()"> Calculate Tip</button>
+			</div>
+			<h1 id="response">  </h1>
+		</div>
+		
+		</div>
+	</section>
+	<!--- Calculator Box Ends --->
+	<footer class="foot">
+		<p> &copy; 2018 Hugh B </p>
+	</footer>
+	<script src="script.js">
+
+	</script>
+</body>
+</html>
